@@ -1,5 +1,5 @@
 <?php
-$connection = mysqli_connect('localhost','root','','your_dbname');
+$connection = mysqli_connect('localhost','root','your_password','your_dbname');
 $tables = array();
 $result = mysqli_query($connection,"SHOW TABLES");
 while($row = mysqli_fetch_row($result)){
